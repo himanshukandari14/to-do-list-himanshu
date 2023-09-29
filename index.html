@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List|Hymanshu</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <!-- wrapper -->
+    <div id="wrapper" class="w-[100vw] h-[100vh] flex justify-center items-center">
+        <!-- main -->
+        <div id="main" class=" min-h-[200px] w-[300px] md:min-h-[200px] md:w-[30%] rounded-3xl px-5 py-4">
+            <!-- header -->
+            <div class="w-full h-[100px] text-[25px] text-[black] font-bold flex gap-x-3 items-center select-none">To-Do-List  <img src="./icons8-to-do-list-94.png" height="50" width="50"></div>
+             <div class="">
+          <form action="" class="flex gap-x-2">
+            <input id="inputbox" type="text" placeholder="Add your Text" name="text" id="" class=" text-black pl-4 h-[50px] w-4/5 bg-[#eeca9f] rounded-3xl border-none outline-none">
+            <button type="button" id="add" class="rounded-3xl bg-[#FAC079] px-4  select-none text-[20px] font-bold hover:bg-[#f7af56]">ADD</button>
+        </form>
+      </div>
+
+  <!-- list cont -->
+       <ul id="listcontainer" class="flex flex-col text-[20px] font-semibold">
+        <!-- <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+      </ul> 
+        </div>
+        <!-- writing scetion -->
+     
+    </div>
+</body>
+</html>
